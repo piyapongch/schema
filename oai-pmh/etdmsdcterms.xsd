@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
+
+<import namespace="http://purl.org/dc/elements/1.1/"
+        schemaLocation="http://www.ndltd.org/standards/metadata/etdms/1.1/etdmsdc.xsd"/>
+
+    <annotation>
+       <documentation>
+          XML DC Terms Schema for the Electronic Theses and Dissertations
+            Metadata Set (ETD-MS)
+
+          Standard Version 1.1, 2009-12-04
+            http://www.ndltd.org/standards/metadata/
+          Schema Version 1.1, 2009-12-16
+
+          Hussein Suleman
+          Digital Libraries Laboratory, UCT
+          hussein@cs.uct.ac.za
+          
+          v1.0: Robert France and Hussein Suleman
+          Virginia Tech DLRL
+       </documentation>
+    </annotation>
+
+    <element name="alternative" type="dc:freeTextType">
+       <annotation>
+          <documentation>
+            A name given to the resource. In the case of theses and
+            dissertations, this is the title of the work as it appears on the
+            title page or equivalent. 
+          </documentation>
+       </annotation>
+    </element>
+
+</schema>
