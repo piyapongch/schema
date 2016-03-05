@@ -7,7 +7,7 @@
     attributeFormDefault="unqualified">
 
 <import namespace="http://purl.org/dc/elements/1.1/"
-        schemaLocation="http://www.ndltd.org/standards/metadata/etdms/1.1/etdmsdc.xsd"/>
+  schemaLocation="https://raw.githubusercontent.com/piyapongch/schema/master/oai-pmh/etdmsdc.xsd"/>
 
     <annotation>
        <documentation>
