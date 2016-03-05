@@ -9,8 +9,11 @@
 
   <import namespace="http://purl.org/dc/elements/1.1/"
     schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd"/>
-  <import namespace="http://www.ndltd.org/standards/metadata/etdms/1.0/" schemaLocation="etdms.xsd"/>
+  <import namespace="http://www.ndltd.org/standards/metadata/etdms/1.0/"
+    schemaLocation="https://raw.githubusercontent.com/piyapongch/schema/master/oai-pmh/etdms.xsd"/>
 
+  <element name="thesis" type="oai_etdms:oai_etdmsType"/>
+  
   <complexType name="oai_etdmsType">
     <choice minOccurs="0" maxOccurs="unbounded">
       <element ref="dc:title"/>
@@ -28,7 +31,6 @@
       <element ref="dc:relation"/>
       <element ref="dc:coverage"/>
       <element ref="dc:rights"/>
-      <element ref="thesis:thesis"/>
     </choice>
   </complexType>
 
